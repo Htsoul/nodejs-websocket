@@ -18,6 +18,6 @@ node app.js
 
 ### 运行结果如下所示
 
-![登录页](wechatPng/1.png =200x200)
-![聊天室主页](wecharPng/5.png =200x200)
-![聊天室主页](wecharPng/6.png =200x200)
+![avatar](wechatPng/1.png =200x200)
+![avatar](wecharPng/5.png =200x200)
+![avatar](wecharPng/6.png =200x200)
