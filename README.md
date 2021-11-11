@@ -18,4 +18,4 @@ node app.js
 
 ### 运行结果如下所示
 
-![avatar](\wechat\1.png)
+![avatar](\wechatPng\1.png)
