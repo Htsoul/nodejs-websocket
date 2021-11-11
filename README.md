@@ -18,6 +18,6 @@ node app.js
 
 ### 运行结果如下所示
 
-![avatar](wechatPng/1.png =200x200)
-![avatar](wecharPng/5.png =200x200)
-![avatar](wecharPng/6.png =200x200)
+![avatar](wechatPng/1.png)
+![avatar](wecharPng/5.png)
+![avatar](wecharPng/6.png)
