@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="lib/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="lib/css/jquery.emoji.css">
+    <link rel="stylesheet" href="css/iconfont.css">
+    <title>聊天室</title>
+</head>
+<body>
+    <div class="login" style="display: block;">
+        <h2>用户登录</h2>
+        <div class="box">
+        <p>用户名</p>
+        <input type="text" class="username" id="username" placeholder="请输入用户名">
+        <p>选择头像</p>
+        <div class="img_list">
+        <ul class="login_avatar" id="login_avatar">
+            <li class="now"><img src="images/1.png" alt=""></li>
+            <li><img src="images/2.png" alt=""></li>
+            <li><img src="images/3.png" alt=""></li>
+            <li><img src="images/4.png" alt=""></li>
+            <li><img src="images/5.png" alt=""></li>
+            <li><img src="images/6.png" alt=""></li>
+            <li><img src="images/7.png" alt=""></li>
+            <li><img src="images/8.png" alt=""></li>
+        </ul>
+        </div>
+        <button class="login_btn" id="loginBtn">登 录</button>
+    </div>
+    </div>
+    <div class="centainer" style="display: none;">
+        <div class="side_bar">
+            <div class="current">
+                <div class="pic">
+                    <img class="current_url" src="images/1.png" alt="">
+                </div>
+                <div class="info">
+                    <h3 class="username">wodiu</h3>
+                </div>
+            </div>
+            <div class="zaixian">用户列表</div>
+            <div class="curr_user">
+                <ul>
+                </ul>
+            </div>
+        </div>
+        <div class="right_top">
+            <h4>聊天室（<span id="userCount">99</span>）</h4>
+        </div>
+        <div class="right_center">
+        </div>
+        <div class="right_bottom">
+            <ul>
+                <li><a href="javascript:;" title="表情" class="biaoqing iconfont icon-tubiao-"></a></li>
+                <li><a href="javascript:;" title="截图" class="iconfont icon-ziyuan"></a></li>
+                <li><a href="javascript:;" title="图片" class="file"><label for="file"><img src="images/wenjian.png" width="25px" height="25px" alt=""></label><input type="file" id="file" style="display: none;"></a></li>
+            </ul>
+            <div class="messa" name="" id="contant" cols="30" rows="10" contenteditable></div>
+            <div class="send_box">
+                <span class="pp">按下Ctrl+Enter发送</span>
+                <a class="send_msg" id="send_msg" href="javascript:;">发 送</a>
+            </div>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="lib/script/jquery.mCustomScrollbar.min.js"></script>
+    <script src="lib/script/jquery.emoji.min.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
